@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	pw.print("<h4> Invalid SignUp , Please <a href='register.html'>Retry</a></h4>");
+</body>
+</html>

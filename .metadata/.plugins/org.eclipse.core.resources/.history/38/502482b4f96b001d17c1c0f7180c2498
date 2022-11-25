@@ -1,0 +1,41 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mysql.cj.protocol.Resultset;
+
+import static DBUtil.DbUtil.*;
+
+import pojo.Candidate;
+
+public class Candidate_Dao_Implementation implements Candidate_Dao {
+	private Connection conn;
+	private PreparedStatement pst1, pst2;
+	
+	public Candidate_Dao_Implementation() throws SQLException {
+		conn = getConnection();
+		
+		pst1= conn.prepareStatement("select * from candidates");
+		pst2= conn.prepareStatement("update candidates set votes=votes+1 where id=?");
+		System.out.println("Candidate dao created!");
+	}
+	
+	@Override
+	public List<Candidate> getAllCandidates() throws SQLException {
+		List<Candidate> candidates = new ArrayList<Candidate>();
+		
+		try(Resultset rs = )
+		
+		return null;
+	}
+
+	@Override
+	public String incrementVotes(int candidateId) throws SQLException {
+		return null;
+	}
+
+}

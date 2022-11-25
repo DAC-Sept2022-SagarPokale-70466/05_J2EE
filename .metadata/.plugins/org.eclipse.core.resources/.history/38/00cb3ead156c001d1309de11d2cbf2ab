@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+ <form action="signUp" method="post">
+      <table style="background-color: lightgrey; margin: auto">
+      
+        <tr>
+          <td>Enter Your First Name : </td>
+          <td><input type="text" name="fname" /></td>
+        </tr>
+        
+        <tr>
+          <td>Enter Your Last Name :  </td>
+          <td><input type="text" name="pass" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Login" /></td>
+        </tr>
+      </table>
+    </form>
+
+</body>
+</html>
