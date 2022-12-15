@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+
+		<property name="hibernate.connection.autocommit">false</property>
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.password">Sagar@154</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/advjava?createDatabaseIfNotExist=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.connection.pool_size">10</property>
+		<property name="hibernate.show_sql">true</property>		<!-- Show the sql  -->
+		<property name="hibernate.format_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property><!-- If table is not avl then create and if availbale then update it  -->
+		<!--  it can be also create,  -->
+		<!--  Add Mapping Entry per entity -->
+		<mapping class="pojo.User"/>		
+		<!--   -->
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>day6.1</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<!-- add error page tag for centralized err handling -->
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/my_err_handler.jsp</location>
+	</error-page>
+		<!-- add ctx  params for the curnt web app -->
+		<context-param>
+			<param-name>url</param-name>
+			<param-value>jdbc:mysql://localhost:3306/advjava?createDatabaseIfNotExist=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</param-value>
+		</context-param>
+		<context-param>
+			<param-name>user_name</param-name>
+			<param-value>root</param-value>
+		</context-param>
+		<context-param>
+			<param-name>password</param-name>
+			<param-value>Sagar@154</param-value>
+		</context-param>
+	
+</web-app>

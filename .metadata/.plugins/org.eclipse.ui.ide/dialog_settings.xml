@@ -122,9 +122,59 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="G:\C-Dac\5_J2EE\adv_java\day17-data\eclipse-projects\day17_security"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day17-data\eclipse-projects\day16_security"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day16-data\eclipse-projects\day16_security"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day16-data\eclipse-projects\day16_boot"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day15-data\eclipse_projects\day15_REST_backend"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day15-data\eclipse_projects\day15_boot"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day14-data\eclipse-projects\spring_boot_template"/>
+			<item value="C:\Users\Sagar\Downloads\day14-data\day14-data\eclipse-projects\day14_boot"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day14-data\eclipse-projects\day14_boot"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day13-data\eclipse-projects"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day12-data\eclipse_projects"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day12-data\eclipse_projects\day12.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day11-data\eclipse-projects\day11.2"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day11-data\eclipse-projects\day11.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day7-data\eclipse-projects\day7.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\eclipse-projects\day4.3"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\eclipse-projects\day4.2"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\eclipse-projects\day4.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day10-data\eclipse-projects\day10.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day9-data\eclipse_projects\day9.2"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day9-data\eclipse_projects\day9.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day5-data\eclipse_projects\day5.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day1-data\eclipse-projects\day1.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\day4-data\eclipse-projects\day4.2"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\day4-data\eclipse-projects\day4.1"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day3-data\eclipse-projects\day3.2"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day3-data\eclipse-projects\day3.1"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day2-data\eclipse-projects\day2.1"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="G:\C-Dac\5_J2EE\adv_java\day6-data\eclipse-projects\day6.1"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\day4-data\eclipse-projects\day4.3"/>
+			<item value="G:\C-Dac\5_J2EE\adv_java\day4-data\day4-data\day4_help\demo of config_vs_ctx\config_vs_ctx"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="367"/>
+		<item key="DIALOG_Y_ORIGIN" value="58"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
 </section>

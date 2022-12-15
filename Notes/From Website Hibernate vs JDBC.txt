@@ -1,0 +1,30 @@
+It provides a vital framework for mapping object-oriented programming concepts to an RDBMS. According to Wikipedia “Hibernate is able to deal with object-relational impedance mismatch problems by replacing direct, persistent database accesses with high-level object handling functions.”
+
+Hibernate connects to the database and then modifies each Hibernate Query Language statement into database-specific statements. These are then mapped to Java objects which can then be accessed and used by the Java application.
+
+SOLVES OBJECT-RELATIONAL IMPEDANCE MISMATCH PROBLEMS
+When a relational database is written in an object-oriented programming language, object-relational impedance mismatch issues can arise.
+
+Differences in data types, structural and integrity differences, and manipulative and transactional differences, can all cause object-relational impedance mismatches.
+
+PERFORM AUTOMATIC OBJECT MAPPING
+Another difference between JDBC and Hibernate lies in the fact that the latter facilitates automatic object mapping when we write code. Otherwise known as “Transparent Persistence“, this process allows Hibernate to map database tables to application objects during interaction with RDBMS.
+
+HIBERNATE QUERY LANGUAGE (HQL)
+Like JDBC, Hibernate supports Structured Query Language (SQL). However, JDBC only supports SQL while Hibernate also supports the Hibernate Query Language (HQL) as well as Native SQL.
+
+Hibernate Query Language (HQL) is similar to SQL such that it is an object-oriented query language. However, it doesn’t operate on tables like SQL but rather uses persistent objects and their properties.
+
+In order to bridge the gap, HQL translates queries into SQL queries that can then initiate actions in the database.
+
+Native SQL allows applications to use SQL statements with Hibernate meaning developers can choose between the two.
+
+Differences between SQL and HQL – Summary:
+HQL is a combination of an Object-Oriented Programming System and a Relational database concept.
+SQL is entirely relational database model-based.
+HQL deals with objects and their properties.
+SQL operates on table data and the relationship between different tables.
+The fact that Hibernate can operate using either SQL or HQL makes the better choice for most developers as it allows for more flexibility.
+
+DATABASE INDEPENDENCE
+Since Hibernate allows for mapping between data tables and applications to be made through XML files, this makes it easy to migrate data to a new database if required.
