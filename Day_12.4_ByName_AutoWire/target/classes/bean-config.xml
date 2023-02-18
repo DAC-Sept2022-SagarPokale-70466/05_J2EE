@@ -5,10 +5,12 @@
 	<!-- dependency beans -->
 	<!-- singleton n eager -->
 	<bean id="test" class="dependency.TestTransport" />
-	<!-- singleton n lazy -->
+	<!-- singleton -->
 	<bean id="myName" class="dependency.HttpTransport" />
 	<!-- prototype -->
 	<bean id="myTransport12" class="dependency.SoapTransport" scope="prototype" />
+
+
 	<!-- dependent bean singleton n eager -->
 	<bean id="my_atm" class="dependent.ATMImpl" init-method="myInit"
 		destroy-method="myDestroy" autowire="byName" />	

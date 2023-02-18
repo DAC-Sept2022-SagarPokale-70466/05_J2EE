@@ -10,8 +10,7 @@
 	<!-- prototype -->
 	<bean id="soap" class="dependency.SoapTransport" scope="prototype" />
 	<!-- dependent bean singleton n eager -->
-	<bean id="my_atm" class="dependent.ATMImpl" init-method="myInit"
-		destroy-method="myDestroy">
+	<bean id="my_atm" class="dependent.ATMImpl" init-method="myInit" destroy-method="myDestroy">
 		<!-- ctor based D.I -->
 		<constructor-arg name="t1234" ref="test" />
 	</bean>

@@ -37,12 +37,12 @@ public class ATMImpl implements ATM {
 
 	public void setMyTransport12(Transport myTransport) {
 		this.myTransport = myTransport;
-		System.out.println("in setter "+this.myTransport);
+		System.out.println("in setter setMyTransport12 "+this.myTransport);
 	}
 	
 	public void setMyName(Transport myTransport) {
 		this.myTransport = myTransport;
-		System.out.println("in setter .........."+this.myTransport);
+		System.out.println("in setter  setMyName.........."+this.myTransport);
 	}
 
 }

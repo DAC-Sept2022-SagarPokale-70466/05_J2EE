@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="has"/>
+		<item key="selection" value="driver"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="hash"/>
-			<item value="has"/>
-			<item value="hashcode"/>
-			<item value="private"/>
-			<item value="registerUser"/>
-			<item value="security"/>
-			<item value="com.app"/>
-			<item value="controller"/>
-			<item value="com.app.controller"/>
-			<item value="required"/>
-			<item value="Soap"/>
+			<item value="driver"/>
+			<item value="day12.7"/>
+			<item value="day12.4"/>
+			<item value="myDestroy"/>
+			<item value="t1234"/>
 			<item value="myTransport12"/>
-			<item value="product_id"/>
-			<item value="cart"/>
+			<item value="user_id"/>
+			<item value="cartOwner"/>
 			<item value="cart_id"/>
+			<item value="cart"/>
+			<item value="Day_09.02_Hibernate_ER_Mapping"/>
+			<item value="category_list"/>
+			<item value="spring"/>
+			<item value="user_details"/>
+			<item value="day15_boot"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Day_12.7_@AutoWire"/>
+			<item value="Day_12.4_ByName_AutoWire"/>
+			<item value=""/>
+			<item value="Day_15_Spring_Data_JPA"/>
+			<item value="__Project_Data"/>
 			<item value="Day_09.01_Hibernate_Function_Blob"/>
 			<item value="Day_09.02_Hibernate_ER_Mapping"/>
 			<item value="Day_10"/>
@@ -35,8 +40,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="55"/>
-		<item key="DIALOG_Y_ORIGIN" value="94"/>
+		<item key="DIALOG_X_ORIGIN" value="943"/>
+		<item key="DIALOG_Y_ORIGIN" value="89"/>
 		<item key="DIALOG_WIDTH" value="284"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

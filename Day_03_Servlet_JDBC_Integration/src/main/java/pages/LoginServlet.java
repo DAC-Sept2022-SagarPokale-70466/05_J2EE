@@ -1,6 +1,7 @@
 package pages;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 import java.sql.SQLException;
 
@@ -45,9 +46,7 @@ public class LoginServlet extends HttpServlet {
 
 	}
 
-	/**
-	 * @see Servlet#destroy()
-	 */
+	
 	public void destroy() {
 		try {
 			userDao.cleanUp();
@@ -59,11 +58,7 @@ public class LoginServlet extends HttpServlet {
 		}
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+		protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// 1. set cont type
 		response.setContentType("text/html");

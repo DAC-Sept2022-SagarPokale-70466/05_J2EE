@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4 align="center" style="color: red;">${requestScope.mesg}</h4>
-	
+	<h4 align="center" style="color: red;"></h4>
+
 	<form method="post">
 		<table style="background-color: lightgrey; margin: auto">
 			<tr>
@@ -18,13 +18,13 @@
 			<tr>
 				<td>Enter Password</td>
 				<td><input type="password" name="password" /></td>
+				<td><h4 align="center" style="color: red;">${requestScope.mesg}</h4></td>
 			</tr>
-
 			<tr>
 				<td><input type="submit" value="Login" /></td>
 			</tr>
 		</table>
+		<br />
 	</form>
-
 </body>
 </html>

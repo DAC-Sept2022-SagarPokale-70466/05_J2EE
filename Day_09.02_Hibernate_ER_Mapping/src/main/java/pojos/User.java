@@ -19,12 +19,16 @@ public class User extends BaseEntity {
 
 	@Column(name = "first_name", length = 20) // col name , varchar size : 20
 	private String firstName;
+
 	@Column(name = "last_name", length = 20) // col name , varchar size : 20
 	private String lastName;
+
 	@Column(length = 25, unique = true) // unique constraint
 	private String email;
+
 	@Column(length = 20, nullable = false) // non null constraint
 	private String password;
+
 	@Enumerated(EnumType.STRING) // col type : varchar (enum const name)
 	@Column(name = "user_role", length = 30)
 	private Role userRole;

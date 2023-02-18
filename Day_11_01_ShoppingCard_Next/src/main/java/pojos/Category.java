@@ -13,10 +13,13 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "categories")
 public class Category extends BaseEntity {
+	
 	@Column(name = "category_name", length = 30, unique = true)
 	private String categoryName;
+	
 	@Column(length = 100)
 	private String description;
+	
 	// one to many : Category 1 ----->* Product
 	//Category : one , parent ,inverse 
 	@OneToMany(mappedBy = "productCategory", 

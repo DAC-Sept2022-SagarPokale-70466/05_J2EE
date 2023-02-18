@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,5 +12,11 @@
 	<h5>
 		<a href="user/login">User Sign In</a>
 	</h5>
+	
+	<a href="user/register">Register YourSelf</a>
+	<h4>${requestScope.mesg}</h4> 
+	
+	
+	<a href="user/login">Log-In</a>
 </body>
 </html>

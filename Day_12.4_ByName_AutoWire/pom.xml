@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sunbeam</groupId>
-  <artifactId>day12.4</artifactId>
+  <artifactId>Day_12.4_ByName_AutoWire</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>day12.4</name>
+  <name>Day_12.4_ByName_AutoWire</name>
   <description>Spring Java SE App for Auto Wiring by name</description>
   	<properties>
 		<spring.version>5.3.6</spring.version>
@@ -24,12 +24,12 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
-					<warName>day12.4</warName>
+					<warName>Day_12.4_ByName_AutoWire</warName>
 				</configuration>
 			</plugin>
 		</plugins>
 
-		<finalName>day12.4</finalName>
+		<finalName>Day_12.4_ByName_AutoWire</finalName>
 	</build>
 	<dependencies>
 		<dependency>

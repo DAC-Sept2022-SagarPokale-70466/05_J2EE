@@ -5,17 +5,15 @@
 
 package Tester;
 
-import org.hibernate.SessionFactory;
-
-import dao.shopImplementation;
-import pojos.Product;
-
 import static utils.HibernateUtil.getFactory;
 
-import java.time.LocalDate;
 import java.util.Scanner;
 
 import javax.transaction.SystemException;
+
+import org.hibernate.SessionFactory;
+
+import dao.shopImplementation;
 
 public class getDetails {
 

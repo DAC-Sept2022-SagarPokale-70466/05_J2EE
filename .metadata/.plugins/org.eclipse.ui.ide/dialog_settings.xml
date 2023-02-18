@@ -122,6 +122,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="G:\C-Dac\5_J2EE\Projects\PractiseProject"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day17-data\eclipse-projects\day17_security"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day17-data\eclipse-projects\day16_security"/>
 			<item value="G:\C-Dac\5_J2EE\adv_java\day16-data\eclipse-projects\day16_security"/>

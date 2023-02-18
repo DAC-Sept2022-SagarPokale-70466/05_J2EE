@@ -11,6 +11,7 @@ public class BaseEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
 	public BaseEntity() {
 		// TODO Auto-generated constructor stub
 	}

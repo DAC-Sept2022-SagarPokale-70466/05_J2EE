@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>day15_boot</artifactId>
+	<artifactId>JavaLab</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>day15_boot</name>
+	<name>JavaLab</name>
 	<description>Spring Boot Based MVC Web app </description>
 	<properties>
 		<java.version>11</java.version>

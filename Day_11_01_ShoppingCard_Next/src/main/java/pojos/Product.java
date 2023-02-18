@@ -15,17 +15,23 @@ public class Product extends BaseEntity {
 //productId, name ,price,description,inStock
 	@Column(name="product_name",length = 20,unique = true)
 	private String productName;
+	
 	private double price;
+	
 	@Column(length = 100)
 	private String description;
+	
 	@Column(name="in_stock")
 	private boolean inStock;
+	
 	@Transient
 	private LocalDate expDate;
+	
 	//many-to-one association with Category
 	@ManyToOne
 	@JoinColumn(name="category_id",nullable = false) //to specify FK col name
 	private Category productCategory;
+	
 	public Product() {
 		// TODO Auto-generated constructor stub
 	}

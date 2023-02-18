@@ -23,21 +23,27 @@ import org.hibernate.annotations.UpdateTimestamp;
 @Table(name = "carts")
 public class ShoppingCart extends BaseEntity {
 //totalItems,totalCartPrice,createdOn,updatedOn
+	
 	@Column(name = "total_items")
 	private int totalItems;
+	
 	@Column(name = "total_cart_price")
 	private double totalCartPrice;
+	
 	@CreationTimestamp // hib annotation to add creation date auto : once @ time of saving the entity
 	@Column(name = "created_on")
 	private LocalDate createdOn;
+	
 	@UpdateTimestamp // hib annotation to update the date auto : @ time of updating cart
 	@Column(name = "last_updated_on")
 	private LocalDate lastUpdatedOn;
+	
 	// Cart HAS-A Customer Cart ----> User
 	// Cart : one , child , owning
 	@OneToOne // def fetch type : EAGER
 	@JoinColumn(name = "customer_id", nullable = false)
 	private User cartOwner;
+	
 	// Cart *--->* Product
 	// many to many : uni dir association
 	// reco collection type : Set

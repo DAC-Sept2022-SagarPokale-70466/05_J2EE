@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="Day_14_Lab_Spring_Boot"/>
-<aop-project name="day14_boot"/>
+<aop-project name="Day_16_Own_Practise"/>
+<aop-project name="day16_boot"/>
+<aop-project name="day15_REST_backend"/>
+<aop-project name="Day_16_Security_Into"/>
+<aop-project name="Day_16_01_REST_Exception_DTO"/>
 </aop-reference-model>
